@@ -1,0 +1,7 @@
+# Not tested, just a try
+services:
+  predictive_analytics:
+    build:
+      context: ./
+    ports:
+      - 8081:8081

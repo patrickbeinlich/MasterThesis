@@ -1,0 +1,17 @@
+;file;resolution;duration;params;mse;rmse;aic;bic
+0;Ulm_visit_counter_Gloecklerstrasse_Busparkplatz.csv;H;198.84407305717468;lags:24 epochs:50 batch_size:20 hidden_l:40;675934.9;822.1525862028288;0;0
+1;Ulm_visit_counter_Gloecklerstrasse_Busparkplatz.csv;D;75.87904334068298;lags:7 epochs:25 batch_size:50 hidden_l:30;778570430.0;27902.874977320884;0;0
+2;Ulm_visit_counter_Gloecklerstrasse_Hirschstrasse.csv;H;201.82477140426636;lags:24 epochs:50 batch_size:20 hidden_l:30;2827865.2;1681.625775849074;0;0
+3;Ulm_visit_counter_Gloecklerstrasse_Hirschstrasse.csv;D;75.18376851081848;lags:7 epochs:25 batch_size:30 hidden_l:40;4665982000.0;68307.99332435407;0;0
+4;Ulm_visit_counter_Hafenbad.csv;H;202.50652050971985;lags:24 epochs:50 batch_size:20 hidden_l:50;1298109.8;1139.3461940955435;0;0
+5;Ulm_visit_counter_Hafenbad.csv;D;76.98024225234985;lags:7 epochs:25 batch_size:20 hidden_l:30;1484127600.0;38524.376906057805;0;0
+6;Ulm_visit_counter_Hans_Sophie_Scholl_Platz.csv;H;198.30254316329956;lags:24 epochs:50 batch_size:50 hidden_l:50;372003.66;609.9210246007265;0;0
+7;Ulm_visit_counter_Hans_Sophie_Scholl_Platz.csv;D;77.54715061187744;lags:7 epochs:25 batch_size:30 hidden_l:30;208247980.0;14430.799839232752;0;0
+8;Ulm_visit_counter_Herrenkellergasse.csv;H;203.30324125289917;lags:24 epochs:50 batch_size:20 hidden_l:30;357492.16;597.906477845825;0;0
+9;Ulm_visit_counter_Herrenkellergasse.csv;D;76.59274649620056;lags:7 epochs:50 batch_size:30 hidden_l:30;821948860.0;28669.65057338509;0;0
+10;Ulm_visit_counter_Hirschstrasse.csv;H;200.346027135849;lags:24 epochs:50 batch_size:20 hidden_l:30;1702604.5;1304.8388789425305;0;0
+11;Ulm_visit_counter_Hirschstrasse.csv;D;76.44048976898193;lags:7 epochs:25 batch_size:30 hidden_l:40;2207416300.0;46983.14931972951;0;0
+12;Ulm_visit_counter_Kohlgasse.csv;H;163.78551363945007;lags:24 epochs:50 batch_size:20 hidden_l:40;145480.11;381.4185488082613;0;0
+13;Ulm_visit_counter_Kohlgasse.csv;D;76.25536465644836;lags:7 epochs:25 batch_size:20 hidden_l:40;63862636.0;7991.410138392348;0;0
+14;Ulm_visit_counter_Sedelhof.csv;H;201.54218935966492;lags:24 epochs:50 batch_size:20 hidden_l:50;25815.074;160.67070118335204;0;0
+15;Ulm_visit_counter_Sedelhof.csv;D;77.54239535331726;lags:7 epochs:25 batch_size:30 hidden_l:30;15483223.0;3934.8726790075434;0;0

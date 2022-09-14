@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Predictive Analytics Framework Showcase</title>
+		<script language="javascript", type="text/javascript" src="rest.js"></script>
+		<script language="javascript", type="text/javascript" src="index.js"></script>
+		<script language="javascript", type="text/javascript" src="misc.js"></script>
+	</head>
+	
+	<body>
+		<h1>Predictive Analytics Framework Showcase</h1>
+		<h2>File upload</h2>
+		<input id="fileupload" type="file" name="fileupload" />
+		<br/>
+		<text>File ID: </text>
+		<input type="text" readonly id="file_id_text">
+		<br/>
+		<label for="separator">Select the csv separator of that file</label>
+		<input type="text" id="separator" name="separator" required minlength="1" maxlength="1" value=";"/>
+		<br/>
+		<button id="upload_button" onclick="uploadFile()">Upload file</button>
+		<br/>
+		<h2>Data Analytics</h2>
+		<label for="time_interval">Time interval to resample the timeseries</label>
+		<input id="time_interval" type="text"/>
+		<br/>
+		<button id="analyse_button" onclick="analyseFile()">Analyse Data</button>
+		<br/>
+		<text>Seasonal period: </text>
+		<input type="text" readonly id="seasonality_text">
+
+		<h2>Model selection and training</h2>
+		<label for="modeltype">Choose a model type</label>
+		<select name="modeltype" id="modeltype">
+		</select>    
+		<br/>
+		<button id="create_model" onclick="trainModel()">Train model</button>
+		<br/>
+		<text>Model type: </text>
+		<input type="text" readonly id="model_type_text">
+		<br/>
+		<text>Model ID: </text>
+		<input type="text" readonly id="model_id_text">
+		<br/>
+		<text>Model RMSE value: </text>
+		<input type="text" readonly id="model_rmse_text">
+		<br/>
+		<button id="download_model" onclick="downloadModel()">Download model</button>
+
+
+		<h2>Prediction</h2>
+		<label for="prediction_amount">Prediction steps: </label>
+		<input type="number" id="prediction_amount">
+		<br/>
+		<button id="predict_button" onclick="predict()">Predict</button>
+		<br/>
+		<text>Prediction: </text>
+		<textarea readonly id="prediction_text"></textarea>
+
+		<h2>Request</h2>
+		<text>Request in progress: </text>
+		<text id="request_text">False</text>
+
+	</body>
+
+</html>

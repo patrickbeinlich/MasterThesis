@@ -1,0 +1,5 @@
+;file;resolution;duration;params;mse;rmse;aic;bic
+0;Ulm_Weinhof_water_temp.csv;D;50.6429922580719;"{'alpha': 0.6615467675533745, 'beta': None, 'x0': array([1466.90239919,    0.        ,    0.        ,    0.        ,
+          0.        ]), 'use_box_cox': False, 'seasonal_harmonics': array([], dtype=float64)}";4553283.102540042;2133.8423331024346;8658.16879842873;-1
+1;Ulm_Weinhof_water_temp.csv;W;8.5018789768219;{'alpha': 0.32811377075265297, 'beta': None, 'x0': array([5907.047266,    0.      ,    0.      ]), 'use_box_cox': False, 'seasonal_harmonics': array([], dtype=float64)};119535409.51077978;10933.225027903696;1432.8444157142017;-1
+2;Ulm_Weinhof_water_temp.csv;M;13.951783657073975;{'alpha': 1.3003887164577652, 'beta': 0.01521054190454108, 'x0': array([32450.19917993,  5569.56605651]), 'use_box_cox': False, 'seasonal_harmonics': array([], dtype=int32)};1546293137.0932496;39322.93398378673;361.64231355413534;-1

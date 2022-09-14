@@ -1,0 +1,4 @@
+;file;resolution;duration;params;mse;rmse;aic;bic
+0;Ulm_Weinhof_water_temp.csv;D;102.99889349937439;lags:7 epochs:25 batch_size:20 hidden_l:40;290813.1;539.2708908795282;0;0
+1;Ulm_Weinhof_water_temp.csv;W;78.85492181777954;lags:5 epochs:10 batch_size:30 hidden_l:50;16606347.0;4075.088587994131;0;0
+2;Ulm_Weinhof_water_temp.csv;M;76.3112518787384;lags:1 epochs:50 batch_size:50 hidden_l:30;337701820.0;18376.665203458433;0;0

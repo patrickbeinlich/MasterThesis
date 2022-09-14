@@ -1,0 +1,13 @@
+;file;resolution;duration;params;mse;rmse;aic;bic
+0;covid_19_singapore_confirmed.csv;D;118.90902781486511;lags:7 epochs:50 batch_size:50 hidden_l:50;33432.203;182.84475142863687;0;0
+1;covid_19_singapore_confirmed.csv;W;75.27424764633179;lags:1 epochs:10 batch_size:30 hidden_l:30;58944016.0;7677.500634972295;0;0
+2;covid_19_singapore_confirmed.csv;M;73.24828338623047;lags:1 epochs:10 batch_size:50 hidden_l:30;671987800.0;25922.727017040474;0;0
+3;covid_19_singapore_confirmed_added.csv;D;108.30039405822754;lags:1 epochs:50 batch_size:20 hidden_l:40;6846330400.0;82742.55475872134;0;0
+4;covid_19_singapore_confirmed_added.csv;W;76.88862800598145;lags:1 epochs:10 batch_size:30 hidden_l:30;60965850000.0;246912.6386720615;0;0
+5;covid_19_singapore_confirmed_added.csv;M;74.040456533432;lags:1 epochs:10 batch_size:20 hidden_l:40;1725802100000.0;1313697.867243454;0;0
+6;covid_19_singapore_deaths.csv;D;114.70377516746521;lags:7 epochs:50 batch_size:30 hidden_l:30;0.95216614;0.9757900081879801;0;0
+7;covid_19_singapore_deaths.csv;W;79.47269654273987;lags:1 epochs:10 batch_size:30 hidden_l:30;167.58247;12.94536495255668;0;0
+8;covid_19_singapore_deaths.csv;M;77.94446587562561;lags:4 epochs:10 batch_size:30 hidden_l:40;6681.6895;81.74160172840388;0;0
+9;covid_19_singapore_deaths_added.csv;D;113.0469605922699;lags:1 epochs:10 batch_size:50 hidden_l:40;67342.84;259.5049975433999;0;0
+10;covid_19_singapore_deaths_added.csv;W;81.31090903282166;lags:1 epochs:10 batch_size:30 hidden_l:50;193957.3;440.40583201747;0;0
+11;covid_19_singapore_deaths_added.csv;M;78.02086806297302;lags:1 epochs:10 batch_size:30 hidden_l:30;10008509.0;3163.6227651222894;0;0

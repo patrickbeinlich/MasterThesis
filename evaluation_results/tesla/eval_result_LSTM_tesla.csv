@@ -1,0 +1,15 @@
+;file;resolution;duration;params;mse;rmse;aic;bic
+0;tesla_close.csv;D;135.53328347206116;lags:7 epochs:50 batch_size:30 hidden_l:50;4136.0396;64.31204825521614;0;0
+1;tesla_close.csv;W;81.77163195610046;lags:5 epochs:10 batch_size:20 hidden_l:50;26117.943;161.61046797585544;0;0
+2;tesla_close.csv;M;75.74451112747192;lags:1 epochs:50 batch_size:50 hidden_l:50;5039440.0;2244.869706686782;0;0
+3;tesla_high.csv;D;136.80422496795654;lags:7 epochs:50 batch_size:30 hidden_l:50;4216.7905;64.93681950437478;0;0
+4;tesla_high.csv;W;82.93480682373047;lags:5 epochs:10 batch_size:20 hidden_l:50;27451.932;165.6862445727617;0;0
+5;tesla_high.csv;M;79.50643920898438;lags:1 epochs:50 batch_size:50 hidden_l:40;4138348.8;2034.2931819184766;0;0
+6;tesla_low.csv;D;137.01955127716064;lags:7 epochs:50 batch_size:30 hidden_l:50;3919.6428;62.60705089896525;0;0
+7;tesla_low.csv;W;84.48912811279297;lags:5 epochs:25 batch_size:30 hidden_l:30;26124.863;161.63187582048909;0;0
+8;tesla_low.csv;M;77.48006081581116;lags:1 epochs:50 batch_size:20 hidden_l:50;5368543.0;2317.011652970265;0;0
+9;tesla_open.csv;D;137.46395325660706;lags:7 epochs:50 batch_size:30 hidden_l:50;4136.2764;64.31388938003595;0;0
+10;tesla_open.csv;W;83.78892731666565;lags:5 epochs:50 batch_size:30 hidden_l:40;28672.846;169.33058112203182;0;0
+11;tesla_open.csv;M;78.45006775856018;lags:1 epochs:50 batch_size:50 hidden_l:50;3978090.0;1994.5149786351567;0;0
+12;tesla_volume.csv;D;137.81431484222412;lags:7 epochs:50 batch_size:20 hidden_l:50;8861707000000.0;2976861.8739928124;0;0
+13;tesla_volume.csv;W;85.61919069290161;lags:5 epochs:10 batch_size:20 hidden_l:30;118037070000000.0;10864486.543685349;0;0

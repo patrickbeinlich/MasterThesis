@@ -1,0 +1,7 @@
+;file;resolution;duration;params;mse;rmse;aic;bic
+0;power_consumtion_germany_01_15_to_07_22.csv;D;208.32266330718994;lags:7 epochs:50 batch_size:20 hidden_l:50;6715552300.0;81948.47317674686;0;0
+1;power_consumtion_germany_01_15_to_07_22.csv;W;90.24467539787292;lags:5 epochs:50 batch_size:50 hidden_l:30;226224570000.0;475630.7079741593;0;0
+2;power_consumtion_germany_01_15_to_07_22.csv;M;76.97856664657593;lags:12 epochs:50 batch_size:20 hidden_l:50;24012298000000.0;4900234.4969717525;0;0
+3;Realisierter_Stromverbrauch_small.csv;D;92.41674566268921;lags:7 epochs:50 batch_size:20 hidden_l:40;14325124000.0;119687.61045321274;0;0
+4;Realisierter_Stromverbrauch_small.csv;W;75.28269934654236;lags:5 epochs:25 batch_size:20 hidden_l:50;289783600000.0;538315.5314422946;0;0
+5;Realisierter_Stromverbrauch_small.csv;M;74.69649267196655;lags:1 epochs:25 batch_size:20 hidden_l:30;360007040000000.0;18973851.597181633;0;0
